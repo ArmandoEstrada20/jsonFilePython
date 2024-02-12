@@ -1,0 +1,39 @@
+{
+    "jugadores": [
+        {
+            "nombre": "Cristiano",
+            "apellido": "Ronaldo",
+            "edad": 39,
+            "equipos": [
+                "Sporting Club",
+                "Manchester United",
+                "Real Madrid C.F.",
+                "Juventus",
+                "Al-Nassr"
+            ]
+        },
+        {
+            "nombre": "Karim",
+            "apellido": "Benzema",
+            "edad": 36,
+            "equipos": [
+                "Olympique de Lyon",
+                "Real Madrid C.F.",
+                "Al-Ittihad"
+            ]
+        },
+        {
+            "nombre": "Rafael",
+            "apellido": "Márquez",
+            "edad": 44,
+            "equipos": [
+                "Atlas FC",
+                "A.S. Mónaco",
+                "F.C. Barcelona",
+                "N.Y. Red Bulls",
+                "Club León",
+                "Hellas Verona F.C."
+            ]
+        }
+    ]
+}
