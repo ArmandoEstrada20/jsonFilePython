@@ -47,7 +47,24 @@ def agregarJugador(archivo):
     with open(archivo, 'w', encoding='utf-8') as datos:
         json.dump(plantilla, datos, ensure_ascii=False, indent=4)
 
+def menu():
+    while True:
+        print("\nElija una de las siguientes opciones: ")
+        print("1. Ver datos de los jugadores")
+        print("2. Agregar un nuevo jugador")
+        print("x. Salir")
+        opcion = input("¿Que opción desea ejecutar?: ")
+
+        if opcion == '1':
+            verDatos(archivo)
+        elif opcion == '2':
+            agregarJugador(archivo)
+        elif opcion.lower() == 'x':
+            break
+        else:
+            print("La opción no es valida, intente de nuevo...")
+
+
 if __name__ == '__main__':
     archivo = 'Data/data.json' # Variable que almacena la ubicación del archivo JSON
-    verDatos(archivo)
-    #agregarJugador(archivo)
+    menu()
