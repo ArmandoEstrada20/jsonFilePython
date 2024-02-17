@@ -34,6 +34,18 @@
                 "Club León",
                 "Hellas Verona F.C."
             ]
+        },
+        {
+            "nombre": "Erling",
+            "apellido": "Haaland",
+            "edad": 23,
+            "equipos": [
+                "Byrne F.K.",
+                "Molde F.K.",
+                "F.C. Red Bull Salzburg",
+                "Borussia Dortmund",
+                "Manchester City F.C."
+            ]
         }
     ]
 }
